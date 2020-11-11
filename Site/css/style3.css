@@ -1,0 +1,613 @@
+body{
+	font-size: 16px;
+	color:#fff;
+	background-color:black;
+    font-family: 'Oxygen', sans-serif;
+}
+
+*{
+	box-sizing:border-box;
+}
+ .jumbotron{
+		background-color: black;
+		width: 100%;
+		margin-top: 30px;
+		padding: 0;
+	}
+#header-nav{
+	background-color:#4d001f;
+	border-radius: 0;
+	border: 0;
+}
+
+#logo-img{
+	background: url('../images/logo5.jpg')no-repeat;
+	width: 150px;
+	height: 150px;
+	margin: 10px 15px 10px 0;
+	 border-radius: 50%;
+	 margin-left: auto;
+}
+.navbar-brand{
+	padding-top: 25pX;
+}
+.navbar-brand h1{
+	font-family: 'Lora', serif;
+	color:#FEFB4F;
+	font-size:1.5em;
+	text-transform:uppercase;
+	font-weight:bold;
+	text-shadow:1px 1px 1px #2222;
+	margin-top:0px;
+	margin-bottom:0;
+	line-height:.75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration:none;
+}
+
+ul a:hover, .navbar-brand a:focus{
+	text-decoration:none;
+}
+#vis{
+	float: left;
+
+}
+.navbar-brand h1 span{
+	font-size: .7em;
+	margin-left: 05px;
+	text-transform:capitalize;
+	}
+.navbar-brand p
+{
+	color: #f8f8f8;
+	text-transform: uppercase;
+	font-size: .7em;
+	margin-top: 15px;
+}
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a{
+	color:#951449;
+	text-align: center;
+	margin-right: 10px;
+}
+#nav-list a:hover
+{
+	background: #e7e7e7;
+	text-decoration:none;
+}
+#nav-list a span{
+	font-size: 1.8em;
+}
+#phone{
+	margin-top: 5px;
+	margin-left: 20px;
+}
+#phone a{
+	text-align: right;
+	padding-bottom: 0;
+	width: 25px;
+}
+
+#phone div{
+	color: #557c3e;
+	text-align: right;
+	padding-right: 15px;
+}
+#btn
+{
+	background color: white;
+	color: black;
+	width:40%;
+}
+#xs-deliver
+{
+	margin-top: 5px;
+	font-size: .7em;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+}
+button .btn btn-outline-primary{
+	clear: both;
+	margin-top: -30px;
+}
+
+#menu-tile,#Spcial-tile,#map-tile{
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid #350c1f;
+	overflow: hidden;
+
+}
+#menu-tile:hover,#Spcial-tile:hover,#map-tile:hover{
+	box-shadow: 0 1px 5px 1px #black;
+}
+.row{
+    display: table;
+    width: 100%;
+}
+#menu-tile{
+	background: url('../images/22.jpg')no-repeat;
+	width: 100%;
+	background-size: contain;
+
+
+}
+#Spcial-tile{
+background: url('../images/21.png')no-repeat;
+background-size: contain;
+
+}
+#menu-tile span,#Spcial-tile span,#map-tile span{
+position: absolute;
+bottom: 0;
+right: 0;
+width: 100%;
+text-align: center;
+font-size: 1.6em;
+text-transform: uppercase;
+background-color: #000;
+color: #fff;
+opacity: .7;
+
+}
+
+.panel-footer{
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: #222;
+	border-top: 0;
+	color: white;
+}
+.panel-footer div.row{
+	margin-bottom: 35px;
+}
+#hours, #address{
+	line-height: 2;
+}
+#hours>span, #address>span{
+	font-size: 1.3em;
+}
+#adress p{
+	color: #557c3e;
+	font-size: .8em;
+	line-height: 1.8;
+}
+#testi
+{
+	font-style:italic;
+}
+#testi p:nth-child(2)
+{
+
+margin-top: 30px;
+}
+
+.Salad,.Mutton,.Rice-Bowl,.Cakes,.Burger,.Juice,.Chicken, .ice{
+	position: relative;
+	border: 2px solid #3f0c1f;
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto 15px;
+	margin-top: 50px;
+}
+.Salad span,.Mutton span,.Rice-Bowl span,.Cakes span,.Burger span,.Juice span,.Chicken span, .ice span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+	font-color:black;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .7;
+}
+
+.Chicken{
+	background: url('../images/chicken2.jpg')no-repeat;
+	background-size: contain;
+}
+.Salad{
+	background: url('../images/Salad.jpg')no-repeat;
+	background-size: contain;
+}
+
+.Mutton{
+	background: url('../images/Mutton7.png')no-repeat;
+	background-size: contain;
+}
+.Rice-Bowl{
+	background: url('../images/Rice Bowl.jpg')no-repeat;
+	background-size: contain;
+}
+.Cakes{
+	background: url('../images/Cakes2.png')no-repeat;
+	background-size: contain;
+}
+.Burger{
+	background: url('../images/Burger.jpg')no-repeat;
+	background-size: contain;
+}
+.Juice{
+	background: url('../images/Juice.jpg')no-repeat;
+	background-size: contain;
+}
+.ice{
+	background: url('../images/Ice Cream.jpg')no-repeat;
+	background-size: contain;
+}
+
+
+
+/*Chicken*/
+.menu-item-title{
+	margin-bottom: 25px;
+}
+.menu-item-title,.menu-item-price{
+	font-size: 1.1em;
+	text-align: right;
+	/*margin-top: -15px;
+	margin-right: -55px;*/
+}
+.menu-item-photo{
+	position: relative;
+	border: 2px solid #3f0c1f;
+	overflow: hidden;
+	padding: 0;
+	margin-right: -15px;
+	margin-left: auto;
+	margin-bottom: 20px;
+	max-width: 250px;
+}
+.menu-item-photo div{
+
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 80px;
+	background-color: #557c3e;
+	text-align: center;
+}
+.menu-item-description{
+	padding-right: 30px; 
+}
+h3{
+	margin: 0 0 10px;
+}
+
+.Chicken-Grilled, .Chichen-Francese, .Chichen-wrap, .Chicken-finger, .Chichen-Marsala, .Chichen-Prame, .scs, .pms, .Crispy-Salad,
+.German-Potato-Salad, .Fruits-Salad, .Cheese-Salad, .Butterscotch-Cake, .fcc, .oc, .rvc, .bf,.pc, .mc,.mb, .mf, .mpf, .mm, .msk,
+.oj, .mj, .pj, .cs, .bfj, .bg, .bs, .st, .vi, .tf, .ci, .ly{
+	position: relative;
+	border: 2px solid #3f0c1f;
+	overflow: hidden;
+	width: 200px;
+	height: 170px;
+	margin: 0 auto 15px;
+	margin-top: 50px;
+
+
+}
+.Chicken-Grilled{
+	background: url('../images/Chicken Grilled.jpg')no-repeat;
+	background-size: contain;
+
+}
+.Chichen-Francese{
+	background: url('../images/Chichen Francese.png')no-repeat;
+	background-size: contain;
+
+}
+.Chichen-wrap{
+	background: url('../images/Chichen wrap.jpg')no-repeat;
+	background-size: contain;
+
+}
+.Chicken-finger{
+	background: url('../images/Chicken finger.jpg')no-repeat;
+	background-size: contain;
+}
+.Chichen-Marsala{
+	background: url('../images/Chichen  Marsala2.png')no-repeat;
+	background-size: contain;
+}
+.Chichen-Prame{
+	background: url('../images/Chichen Prame5.png')no-repeat;
+	background-size: contain;
+}
+.scs{
+background: url('../images/sc.jpg')no-repeat;
+	background-size: contain;
+}
+.pms{
+	background: url('../images/ps.jpg')no-repeat;
+	background-size: contain;
+
+}
+.Crispy-Salad{
+	background: url('../images/Crispy Salad2.jpg')no-repeat;
+	background-size: contain;
+
+}
+.German-Potato-Salad{
+background: url('../images/German Potato Salad.png')no-repeat;
+	background-size: contain;
+}
+.Fruits-Salad{
+background: url('../images/Fruits Salad.jpg')no-repeat;
+	background-size: contain;
+}
+.Cheese-Salad{
+background: url('../images/Cheese Salad.jpg')no-repeat;
+	background-size: contain;
+}
+.Butterscotch-Cake{
+background: url('../images/Butterscotch Cake.jpg')no-repeat;
+	background-size: contain;
+}
+.fcc{
+	background: url('../images/Fruit Chocolate cake.jpg')no-repeat;
+	background-size: contain;
+}
+
+.oc{
+	background: url('../images/orc.jpg')no-repeat;
+	background-size: contain;
+}
+
+.rvc{
+background: url('../images/Red Velvet Cake.jpg')no-repeat;
+	background-size: contain;
+}
+.bf{
+background: url('../images/Black Forest Gateau.jpg')no-repeat;
+	background-size: contain;	
+}
+.pc{
+background: url('../images/Pineapple Cake.jpg')no-repeat;
+	background-size: contain;	
+}
+
+
+/*mutton
+*/
+
+.mb{
+background: url('../images/mb.jpg')no-repeat;
+	background-size: contain;
+}
+
+.mpf{
+background: url('../images/mpf.jpg')no-repeat;
+	background-size: contain;
+}
+.mm{
+background: url('../images/mm.jpg')no-repeat;
+	background-size: contain;
+}
+.mf{
+background: url('../images/Mutton Fry.jpg')no-repeat;
+	background-size: contain;
+}
+.mc{
+background: url('../images/Mutton Chukkal.jpg')no-repeat;
+	background-size: contain;
+}
+.msk{
+background: url('../images/msk.jpg')no-repeat;
+	background-size: contain;
+}
+
+/* fresh juice*/
+
+.oj{
+background: url('../images/oj.png')no-repeat;
+	background-size: contain;
+}
+.mj{
+background: url('../images/mj.jpg')no-repeat;
+	background-size: contain;
+}
+.pj{
+background: url('../images/pineapple juice.jpg')no-repeat;
+	background-size: contain;
+}
+.cs{
+background: url('../images/cs.jpg')no-repeat;
+	background-size: contain;
+}
+.bfj{
+background: url('../images/bfj.jpg')no-repeat;
+	background-size: contain;
+}
+.bg{
+background: url('../images/bg.jpg')no-repeat;
+	background-size: contain;
+}
+
+/* Ice cream*/
+
+.bs{
+background: url('../images/butter scotch.jpg')no-repeat;
+	background-size: contain;
+}
+.st{
+background: url('../images/strawberry ice cream.jpg')no-repeat;
+	background-size: contain;
+}
+.vi{
+background: url('../images/Vanilla ice cream.jpg')no-repeat;
+	background-size: contain;
+}
+.tf{
+background: url('../images/tf.jpg')no-repeat;
+	background-size: contain;
+}
+.ci{
+background: url('../images/ci.jpg')no-repeat;
+	background-size: contain;
+}
+.ly{
+background: url('../images/ly.jpg')no-repeat;
+	background-size: contain;
+}
+
+
+
+
+@media(min-width: 1200px)
+{
+	#logo-img{
+	background: url('../images/logo5.jpg')no-repeat;
+	width: 150px;
+	height: 150px;
+	margin: 5px 5px 5px 0;
+	 border-radius: 50%;
+	 margin-left: -40px;
+
+	}
+
+	
+}
+
+@media(max-width: 767px){
+
+	.navbar-brand h1{
+		margin-top: 0px;
+	}
+
+	.navbar-brand{
+		float: left;
+	}
+	.menu-item-photo{
+		margin-right: auto;
+	}
+	.menu-item-title,.menu-item-price{
+		text-align: center;
+	}
+.menu-item-description{
+text-align: center;
+	}
+}
+/*@media(max-width: 576px){
+	.hidden-sm-down{
+		visibility: hidden;
+	}
+	.navbar-brand h1{
+		margin-top: 0px;
+		}
+	}
+	*/
+
+@media(min-width: 992px){
+	#abc{
+		visibility: hidden;
+	}
+		#ab{
+		visibility: hidden;
+	}
+}
+@media(max-width: 991px){
+	#phone{
+		visibility: hidden;
+	}
+	
+		
+}
+@media(min-width: 300px)and(max-width: 500px){
+#logo-img{
+	/*background: url('../images/logo5.jpg')no-repeat;
+	width: 100px;
+	height: 80px;
+	margin: 10px 15px 10px 0;
+	 border-radius: 50%;
+	 margin-left: auto;*/
+	 visibility: hidden;
+}
+.navbar-brand h1{
+	font-family: 'Lora', serif;
+	color:#FEFB4F;
+	font-size:1em;
+	text-transform:uppercase;
+	font-weight:bold;
+	text-shadow:1px 1px 1px #2222;
+	margin-top:0px;
+	margin-bottom:0;
+	line-height:.75;
+}
+
+.navbar-brand h1 span{
+	font-size: .5em;
+	margin-left: 05px;
+	text-transform:capitalize;
+	}
+.navbar-brand p
+{
+	color: #f8f8f8;
+	text-transform: uppercase;
+	font-size: .5em;
+	margin-top: 15px;
+}
+#menu-tile,#Spcial-tile
+{
+	height: 100px;
+	width: 280px;
+	margin: 0 auto 15px;
+}
+	
+}
+@media(min-width: 500px)and(max-width: 960px){
+#logo-img{
+	visibility: hidden;
+}
+}
+
+
+@media(max-width: 479px)
+{
+	#menu-tile,#Spcial-tile
+{
+	height: 100px;
+	width: 250px;
+	margin: 0 auto 15px;
+	background-size: contain;
+
+}
+#map-tile{
+	height: 100px;
+	width: 250px;
+	margin: 0 auto 15px;
+}
+	
+}
+
+@media(min-width: 768px)and(max-width: 992px){
+
+#menu-tile,#Spcial-tile
+{
+	height: 200px;
+	width: 40%;
+	margin: 0 auto 15px;
+	background-size: contain;
+
+}
+#map-tile{
+	height: 100px;
+	width: 60%;
+	margin: 0 auto 15px;
+}
+.Salad,.Mutton,.Rice-Bowl,.Cakes,.Burger,.Juice,.Chicken{
+
+	width: 40%;
+
+}
+
